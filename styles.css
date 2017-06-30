@@ -19,3 +19,61 @@
   Input Border Bottom (Focus): #967343
 
 */
+body{
+
+  width: 100%;
+  /*ADD FONT*/
+
+}
+
+.nav-bar{
+  display: flex;
+  flex-direction: row;
+
+}
+.nav-bar>img{
+
+  margin-left: 0;
+  width: 65px;
+  height: 65px;
+
+}
+
+.nav-bar>ul{
+
+  color: gray;
+  display: flex;
+  flex-direction: row;
+  padding-left: 25em;
+
+}
+ul>li{
+
+  display: flex;
+
+  width: 100%;
+  padding: 2em;
+  text-decoration: underline;
+}
+
+.title>h1{
+
+  display: flex;
+  justify-content: center;
+
+}
+
+.title>h3{
+  display: flex;
+  justify-content: center;
+}
+
+.First-row{
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.Second-row{
+  display: flex;
+  flex-wrap: nowrap;
+}
