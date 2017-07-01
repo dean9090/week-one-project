@@ -22,7 +22,10 @@
 body{
 
   width: 100%;
-  /*ADD FONT*/
+  font-family: 'Merriweather', serif;
+  background-color: #F2F1E8;
+
+
 
 }
 
@@ -66,14 +69,65 @@ ul>li{
 .title>h3{
   display: flex;
   justify-content: center;
+  font-weight: 300;
 }
+
 
 .First-row{
   display: flex;
   flex-wrap: nowrap;
+
 }
+
 
 .Second-row{
   display: flex;
   flex-wrap: nowrap;
+
+
 }
+
+div>p{
+  position: relative; /*THIS IS SO THE PARAGRAPH BACKGROUND SHOWS UP ON THE PICTURE, MOVES WHOLE P ON TOP OF THE PICTURE*/
+  margin-top: -3em;
+  margin-left: 1em;
+  padding: .5em;
+  background-color: rgb(32,36,29);
+  color: rgb(239,236,204);
+  
+
+}
+
+
+
+
+
+
+
+
+
+
+/***************PAGE TWO*******************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/****************PAGE THREE*********************/
