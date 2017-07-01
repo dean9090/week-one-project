@@ -8,9 +8,9 @@
   Inline Link: #968772
   Inline Link (Hover): #967343
   Navigation Background: #FFFFFF
-  Navigation Text: #2B2F26
-  Navigation Text (Hover): #CD5D67
-  Navigation Text (Active) #968772
+  Navigation Text: #2B2F26 ****completed*****
+  Navigation Text (Hover): #CD5D67 ****completed*****
+  Navigation Text (Active) #968772 ****completed*****
   Button Background: #968772
   Button Background (Hover): #967343
   Button Text: #F2F1E8
@@ -20,58 +20,68 @@
 
 */
 body{
-
   width: 100%;
   font-family: 'Merriweather', serif;
   background-color: #F2F1E8;
-
-
-
 }
+
 
 .nav-bar{
   display: flex;
   flex-direction: row;
   background-color: white;
-
-
-
 }
-.nav-bar>img{
 
+
+.nav-bar>img{
   margin-left: 0;
   width: 65px;
   height: 65px;
-
+  padding-top: 1.25em;
+  padding-left: .5em;
 }
 
-.nav-bar>ul{
 
+.nav-bar>ul{
   color: gray;
   display: flex;
   flex-direction: row;
   padding-left: 25em;
-
-
 }
+
+
 ul>li{
-
   display: flex;
-
   width: 100%;
-  padding: 2em;
+  padding: 1.5em;
   text-decoration: underline;
   text-transform:uppercase;
   font-family: 'Roboto', sans-serif;
   font-weight: 600;
 }
 
-.title>h1{
 
+li>a{
+  color: rgb(32,33,29);
+}
+
+/************LINK ACTIONS COLORS**********/
+
+a:hover{
+  color: #967343;
+}
+a:active{
+  color: #968772;
+}
+
+
+/**************************************/
+
+.title>h1{
   display: flex;
   justify-content: center;
-
 }
+
 
 .title>h3{
   display: flex;
@@ -83,17 +93,14 @@ ul>li{
 .First-row{
   display: flex;
   flex-wrap: nowrap;
-
-
 }
 
 
 .Second-row{
   display: flex;
   flex-wrap: nowrap;
-
-
 }
+
 
 div>p{
   position: relative; /*THIS IS SO THE PARAGRAPH BACKGROUND SHOWS UP ON THE PICTURE, MOVES WHOLE P ON TOP OF THE PICTURE*/
@@ -104,8 +111,9 @@ div>p{
   color: rgb(239,236,204);
   margin-right: auto;
   width: 75%;
-
 }
+
+
 div>img{
   padding-right: .5em;
 }
@@ -116,17 +124,9 @@ footer{
   padding: 1em;
   background-color: rgb(32,36,29);
   color: rgb(239,236,204);
-
-
 }
 
-
-
-
-
-
-
-
+/*****************************/
 /***************PAGE TWO*******************/
 
 
@@ -151,3 +151,32 @@ footer{
 
 
 /****************PAGE THREE*********************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/****************END OF DOCUMENT*********************/
