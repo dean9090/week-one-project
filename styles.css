@@ -129,31 +129,158 @@ footer{
 /*****************************/
 /***************PAGE TWO*******************/
 
+.content{
+  width: 90%;
+  padding: 0em 2em;
+}
+
+h1{
+  text-align: center;
+  font-weight: 500;
+  font-size: 3em;
+  padding-bottom: 2em;
+}
+
+h3{
+  font-weight: 300;
+  font-size: 1.5em;
+}
+
+#bird-house{
+  float: left;
+  padding-right: 1em;
+  padding-bottom: 1em;
+}
+
+blockquote{
+  padding: 1em 2em;
+  text-align: justify;
+  border-left: 2px solid rgb(167,158,142);
+}
+
+.history{
+  width: 90%;
+
+}
+
+.grow{
+
+  width:1278px;
+  height: 315px;
+  background-image:url("images/background-3.jpg");
+  background-size: cover;
+  padding-bottom: 100px;
 
 
+}
+.grow>p{
+  padding-left: 400px;
+  padding-top: 120px;
+  font-size: 5em;
+  color: white;
+}
 
+.facilities{
+  width: 90%;
+  padding-bottom: 2em;
+  padding-top: 1em;
+}
+figure{
+  float: right;
+  padding-bottom: 1em;
+  margin-top: -1em;
 
+}
 
+figcaption{
+  width: 160px;
+  font-size: .5em;
+}
 
+/********TABLE************/
 
+.graph{
+  padding-top: 3em;
+}
 
+.graph{
+  padding-bottom: 2em;
+}
 
+table{
+  border-collapse: collapse;
+}
 
+.title{
+  text-align: center;
+}
 
-
-
-
-
-
-
+table tr td{
+  padding: .5em;
+  border: 1px solid black;
+}
+tr:nth-of-type(even){
+  background-color: rgb(239,229,211);
+}
 
 
 
 
 /****************PAGE THREE*********************/
 
+.page-3{
+margin: 0;
+background-image: url("images/background-2.jpg");
+background-size: cover;
+}
 
 
+
+.form>h2{
+  text-align: center;
+  font-size: 2em;
+  padding: inherit;
+  font-weight: 300;
+}
+
+.form>h3{
+  text-align: center;
+  font-weight: 300;
+}
+
+
+.form {
+  background-color: white;
+  width: 50%;
+  margin-left: 20em;
+  margin-top: 5em;
+  padding: 1em;
+
+
+}
+
+input.mess{
+  margin-top: .5em;
+  margin-bottom: 1.5em;
+  padding-bottom: .5em;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  width: 90%;
+  margin-left: 2em;
+  font-size: 1em;
+}
+
+
+
+#button{
+  background-color: rgb(132,116,94);
+  margin-left: 30em;
+  padding: 2em 4em;
+  color: white;
+  margin-bottom: 1.5em;
+  border: none;
+}
 
 
 
